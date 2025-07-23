@@ -47,7 +47,7 @@ npm install
 npm run develop
 ```
 
-Access the Strapi admin panel at `http://localhost:1337/admin`
+Access the Strapi admin panel at `https://wound-assitant-backend.onrender.com`
 
 ---
 
