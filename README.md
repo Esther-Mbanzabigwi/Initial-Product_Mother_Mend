@@ -24,7 +24,18 @@ Ensure you have the following installed:
 - Expo CLI (`npm install -g expo-cli`)
 - SQLite
 - Strapi (Headless CMS)
+ ---
+### 🧠 AI Model API (FastAPI)
 
+Navigate to the model directory and run the following:
+
+```bash
+cd model_api
+python -m venv venv
+source venv/bin/activate     # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app:app --reload
+```
 ---
 
 ### 📱 Mobile Application (React Native + Expo)
@@ -108,7 +119,9 @@ WoundTrack/
 ├── backend/                # Strapi CMS Backend
 ├── model_api/              # FastAPI CNN Model
 ├── designs/                # Figma Mockups & Screenshots
-│   └── 1bec10e9-mockup.png
+│   └── mockup.pn
+    └── circuit Diagram.png
+
 ├── video/                  # Demo video
 │   └── woundtrack_demo.mp4
 ├── requirements.txt
