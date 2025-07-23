@@ -1,0 +1,86 @@
+# 📱 MotherMend: C-Section Recovery Assistant
+
+## 📖 Overview
+MotherMend is an AI-powered mobile and web application designed to support Rwandan mothers in monitoring C-section wound healing. Using a convolutional neural network (CNN) for image classification, the app delivers real-time wound status predictions and provides tailored healing guidance or prompts for medical consultation.
+
+## 🔗 GitHub Repository
+[Visit the WoundTrack GitHub Repo](https://github.com/esthermbanza/WoundTrack)
+
+## 🛠️ Setup Instructions
+
+### 📋 Prerequisites
+- Python 3.10+
+- Node.js 18+
+- npm or yarn
+- Expo CLI
+- SQLite
+- Git
+- Strapi (CMS backend)
+
+### 🧠 AI Model API (FastAPI)
+```bash
+cd model_api
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn app:app --reload
+```
+
+### 📱 Mobile App (React Native - Expo)
+```bash
+cd frontend
+npm install
+npx expo start
+```
+
+### 🔧 Backend (Strapi CMS)
+```bash
+cd backend
+npm install
+npm run develop
+```
+
+## 🎨 App Interface Designs
+The app features six core screens, designed in Figma and fully implemented:
+
+![WoundTrack Figma Mockups](designs/1bec10e9-mockup.png)
+
+**Screens:**
+- Splash / Welcome
+- Login
+- Home Dashboard
+- Upload Wound Photo
+- Prediction Result
+- Healing Tips
+
+## 🚀 Deployment Plan
+- **Model API**: Deploy to Railway or Render using Docker.
+- **Strapi CMS**: Deploy to Heroku with SQLite or PostgreSQL.
+- **Mobile App**: Build with Expo EAS for Android and iOS.
+
+## 🎥 Video Demonstration
+- **Submitted**: July 19, 2025
+- **Duration**: 7 minutes
+- **Link**: [Watch on YouTube](https://www.youtube.com/watch?v=JpcSdBfA39s)
+- **Focus**: Demonstrates app navigation, photo upload, wound prediction, and healing advice.
+
+## 📂 Project Structure
+```
+WoundTrack/
+├── README.md
+├── frontend/               # React Native app
+├── backend/                # Strapi CMS
+├── model_api/              # FastAPI wound classifier
+├── designs/
+│   └── 1bec10e9-mockup.png
+├── video/
+│   └── woundtrack_demo.mp4
+├── requirements.txt
+└── .env.example
+```
+
+## 📝 Supervisor Notes
+> Minor delays occurred in early phases. The final product was submitted instead of an MVP, successfully demonstrating all core functionalities. The video was submitted before the July 21, 2025 deadline.
+
+## 👩‍💻 Credits
+Designed and developed by Esther Mbanzabigwi, 2025.
