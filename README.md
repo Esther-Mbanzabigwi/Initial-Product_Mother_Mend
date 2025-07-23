@@ -7,7 +7,7 @@ MotherMend is a smart wound-monitoring assistant designed to support Rwandan mot
 
 ## 🔗 GitHub Repository
 
-📁 [https://github.com/esthermbanza/WoundTrack](https://github.com/Esther-Mbanzabigwi/Initial-Product_Mother_Mend.git)
+📁 [Initial-Product_Mother_Mend](https://github.com/Esther-Mbanzabigwi/Initial-Product_Mother_Mend.git)
 
 ---
 
@@ -132,6 +132,6 @@ Developed with heart by **Esther Mbanzabigwi** 🇷🇼
 
 ## 📬 Questions or Feedback?
 
-Feel free to open an [Issue](https://github.com/esthermbanza/WoundTrack/issues) or reach out via the contact info in the GitHub profile.
+Feel free to open an [Issue](https://github.com/Esther-Mbanzabigwi/Initial-Product_Mother_Mend/issues) or reach out via the contact info in the GitHub profile.
 
 ---
