@@ -7,7 +7,7 @@ MotherMend is a smart wound-monitoring assistant designed to support Rwandan mot
 
 ## 🔗 GitHub Repository
 
-📁 [https://github.com/esthermbanza/WoundTrack](https://github.com/esthermbanza/WoundTrack)
+📁 [https://github.com/esthermbanza/WoundTrack](https://github.com/Esther-Mbanzabigwi/Initial-Product_Mother_Mend.git)
 
 ---
 
@@ -67,7 +67,8 @@ Designed in Figma and implemented in React Native. UI/UX prioritizes simplicity 
 - Healing Tips Panel
 
 📸 Figma Mockups:
-![App Mockups](<img width="1024" height="1024" alt="Mockup" src="https://github.com/user-attachments/assets/125b1334-38ff-4d5b-a39c-22a72a8dbb42" />
+<![Diagram Circuit](<<img width="1024" height="1024" alt="Mockup" src="https://github.com/user-attachments/assets/1396152f-4cb8-4a95-aa39-7975bad8e5d3" />
+ />
 )
 
 ---
